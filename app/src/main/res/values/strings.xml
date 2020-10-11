@@ -3,7 +3,7 @@
     <string name="title_item_detail">Item Detail</string>
     <string name="recipes_for_a_delcious_dinner">Recipes for a Delcious Dinner</string>
     <string name="recipedescription">recipeDescription</string>
-    <string name="foodpictture">foodPictture</string>
+    <string name="foodpicture">foodPictture</string>
     <string-array name="recipeNames">
         <item>Bacon &amp; Spinach Stuffed Chicken</item>
         <item>Tex-Mex Meatballs</item>
