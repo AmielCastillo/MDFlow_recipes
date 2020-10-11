@@ -68,21 +68,33 @@ public class ItemDetailFragment extends Fragment {
             //((TextView) rootView.findViewById(R.id.item_detail)).setText(mItem.content);
             if (mItem.id.equals("1")){
                 rootView = inflater.inflate(R.layout.recipe_page, container, false);
+                ((TextView) rootView.findViewById(R.id.recipeTitle)).setText(mItem.recipeTitle);
+                ((TextView) rootView.findViewById(R.id.recipeDesc)).setText(mItem.recipeDescription);
             }
             if (mItem.id.equals("2")){
                 rootView = inflater.inflate(R.layout.recipe_page, container, false);
+                ((TextView) rootView.findViewById(R.id.recipeTitle)).setText(mItem.recipeTitle);
+                ((TextView) rootView.findViewById(R.id.recipeDesc)).setText(mItem.recipeDescription);
             }
             if (mItem.id.equals("3")){
                 rootView = inflater.inflate(R.layout.recipe_page, container, false);
+                ((TextView) rootView.findViewById(R.id.recipeTitle)).setText(mItem.recipeTitle);
+                ((TextView) rootView.findViewById(R.id.recipeDesc)).setText(mItem.recipeDescription);
             }
             if (mItem.id.equals("4")){
                 rootView = inflater.inflate(R.layout.recipe_page, container, false);
+                ((TextView) rootView.findViewById(R.id.recipeTitle)).setText(mItem.recipeTitle);
+                ((TextView) rootView.findViewById(R.id.recipeDesc)).setText(mItem.recipeDescription);
             }
             if (mItem.id.equals("5")){
                 rootView = inflater.inflate(R.layout.recipe_page, container, false);
+                ((TextView) rootView.findViewById(R.id.recipeTitle)).setText(mItem.recipeTitle);
+                ((TextView) rootView.findViewById(R.id.recipeDesc)).setText(mItem.recipeDescription);
             }
             if (mItem.id.equals("6")){
                 rootView = inflater.inflate(R.layout.recipe_page, container, false);
+                ((TextView) rootView.findViewById(R.id.recipeTitle)).setText(mItem.recipeTitle);
+                ((TextView) rootView.findViewById(R.id.recipeDesc)).setText(mItem.recipeDescription);
             }
         }
 
