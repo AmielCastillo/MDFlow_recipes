@@ -25,6 +25,7 @@ public class ItemDetailFragment extends Fragment {
      * The fragment argument representing the item ID that this fragment
      * represents.
      */
+    String[] recipeTitles;
     public static final String ARG_ITEM_ID = "item_id";
 
     /**
@@ -61,10 +62,28 @@ public class ItemDetailFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.item_detail, container, false);
-
+        recipeTitles = getResources().getStringArray(R.array.recipeNames);
         // Show the dummy content as text in a TextView.
         if (mItem != null) {
-            ((TextView) rootView.findViewById(R.id.item_detail)).setText(mItem.content);
+            //((TextView) rootView.findViewById(R.id.item_detail)).setText(mItem.content);
+            if (mItem.id.equals("1")){
+                rootView = inflater.inflate(R.layout.recipe_page, container, false);
+            }
+            if (mItem.id.equals("2")){
+                rootView = inflater.inflate(R.layout.recipe_page, container, false);
+            }
+            if (mItem.id.equals("3")){
+                rootView = inflater.inflate(R.layout.recipe_page, container, false);
+            }
+            if (mItem.id.equals("4")){
+                rootView = inflater.inflate(R.layout.recipe_page, container, false);
+            }
+            if (mItem.id.equals("5")){
+                rootView = inflater.inflate(R.layout.recipe_page, container, false);
+            }
+            if (mItem.id.equals("6")){
+                rootView = inflater.inflate(R.layout.recipe_page, container, false);
+            }
         }
 
         return rootView;
